@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/statustext2"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/string1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/statustext"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="status and info messages here"/>
+        <Button
+            android:id="@+id/readfile"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:textAllCaps="false"
+            android:text="read filename.txt"
+            android:layout_gravity="center"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/createfile"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:textAllCaps="false"
+            android:text="create filename.txt"
+            android:layout_gravity="center"
+            android:textSize="14sp" />
+        <Button
+            android:layout_marginBottom="150dp"
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:textAllCaps="false"
+            android:text="check what will be written to file"
+            android:layout_gravity="center"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>
